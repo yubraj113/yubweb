@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>📚 Book Haven</h1>
+        <nav>
+            <button onclick="location.href='#books'">Best Sellers</button>
+            <button onclick="location.href='#about'">About</button>
+            <button onclick="location.href='#contact'">Contact</button>
+            <button onclick="alert('Cart is empty!')">🛒 Cart</button>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h2>Find Your Next Favorite Book</h2>
+        <p>Explore the best collection of books at the best prices.</p>
+        <button onclick="location.href='#books'">Shop Now</button>
+    </section>
+    
+    <section id="books">
+        <h2>📖 Best Sellers</h2>
+        <div class="book-list">
+            <div class="book">
+                <img src="book1.jpg" alt="Book 1">
+                <h3>The Alchemist</h3>
+                <p>Price: NRP 500</p>
+                <p>⭐ 4.8</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="book2.jpg" alt="Book 2">
+                <h3>Rich Dad Poor Dad</h3>
+                <p>Price: NRP 600</p>
+                <p>⭐ 4.5</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="book">
+                <img src="book3.jpg" alt="Book 3">
+                <h3>Atomic Habits</h3>
+                <p>Price: NRP 700</p>
+                <p>⭐ 4.9</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Book Haven | All rights reserved.</p>
+    </footer>
+</body>
+</html>
